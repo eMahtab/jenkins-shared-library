@@ -1,5 +1,6 @@
 package org.cghr;
 
 def gitVersion(){
-	return "git --version".execute().text
+	echo "Now Getting Git Version"
+	git --version
 }
